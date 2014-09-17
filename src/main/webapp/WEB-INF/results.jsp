@@ -24,7 +24,7 @@
 		Results
 		</h2>
 		
-		<a href="/index.html">Search again</a>
+		<a href="/index.jsp]">Search again</a>
 		
 		<pre>
 		<table>
@@ -35,7 +35,7 @@
 		<c:forEach var="b" items="${biz}">
 		     <tr>	
 		       	<td>${b.category}</td>
-		       	<td><a href="${b.website}">${b.name}</a></td>
+		       	<td><a href="http://${b.website}">${b.name}</a></td>
 		       	<td>${b.address1}</td>
 		       	<td>${b.city}</td>
 		       	<td>${b.county}</td>
