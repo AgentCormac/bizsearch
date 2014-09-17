@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link type="text/css" rel="stylesheet" href="/css/main.css" />
+  <link type="text/css" rel="stylesheet" href="/css/main.css.jsp" />
   <title>Welcome to OpenShift</title>
 
 </head>

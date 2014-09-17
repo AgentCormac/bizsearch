@@ -16,8 +16,6 @@
   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     <property name="prefix" value="/WEB-INF/" />
     <property name="suffix" value=".jsp" />
-    <property name="suffix" value=".css" />
-    <property name="suffix" value=".html" />
   </bean>
    
   <!-- Scan classpath for annotations (eg: @Service, @Repository etc) -->
