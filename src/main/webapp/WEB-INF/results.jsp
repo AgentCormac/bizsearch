@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link type="text/css" rel="stylesheet" href="/css/main.css.jsp" />
+  <link type="text/css" rel="stylesheet" href="/css/main.css" />
   <title>Welcome to OpenShift</title>
 
 </head>
@@ -24,7 +24,7 @@
 		Results
 		</h2>
 		
-		<a href="/index.jsp]">Search again</a>
+		<a href="/index.jsp">Search again</a>
 		
 		<pre>
 		<table>
