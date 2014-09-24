@@ -6,6 +6,17 @@
   <link type="text/css" rel="stylesheet" href="/css/main.css" />
   <title>Welcome to OpenShift</title>
 
+<style>
+
+  table { border-collapse: collapse; }
+  th, td { padding: 10px; }
+
+  table,th,td { border-top: 1px solid #bfbfbf; border-bottom: 1px solid #bfbfbf; }
+  th { font-weight: bold; }
+  tr.data:nth-child(even) { background-color: #efefef; }
+
+</style>
+
 </head>
 <body>
 

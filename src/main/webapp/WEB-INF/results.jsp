@@ -8,6 +8,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <link type="text/css" rel="stylesheet" href="/css/main.css" />
   <title>Welcome to OpenShift</title>
+  
+  <style>
+
+  table { border-collapse: collapse; }
+  th, td { padding: 10px; }
+
+  table,th,td { border-top: 1px solid #bfbfbf; border-bottom: 1px solid #bfbfbf; }
+  th { font-weight: bold; }
+  tr.data:nth-child(even) { background-color: #efefef; }
+
+</style>
 
 </head>
 <body>
@@ -23,17 +34,12 @@
         <h2>
 		Results
 		</h2>
+		<h3><a href="/index.jsp">Search again</a></h3>
 		
-		<a href="/index.jsp">Search again</a>
-		
-		<pre>
 		<table>
-		<thead>
-		   <tr><td>Category</td><td>Name</td><td>Address</td><td>City</td><td>County</td><td>Postcode</td><td>Telephone</td></tr>
-		</thead>
-		<tbody>
+		   <tr><th>Category</th><th>Name</th><th>Address</th><th>City</th><th>County</th><th width=10%>Postcode</th><th width="10%">Telephone</th></tr>
 		<c:forEach var="b" items="${biz}">
-		     <tr>	
+		     <tr class="data">	
 		       	<td>${b.category}</td>
 		       	<td><a href="http://${b.website}">${b.name}</a></td>
 		       	<td>${b.address1}</td>
@@ -43,9 +49,7 @@
 		       	<td>${b.telephone}</td>
 		     </tr>        
         </c:forEach>		
-		</tbody>
 		</table>
-		</pre>
 		
 		</div>
 
