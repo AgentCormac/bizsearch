@@ -43,11 +43,10 @@
 		<tr>
 			<td>County</td><td> <input type="text" name="county" /> </td>
 		</tr>
-		<tr>
-		<td cellspan="2"><input type="submit" value="Search">
-		</td>
-		</tr>		
+			
 		</table>
+		
+		<input type="submit" value="Search">
 		</form>
 		
         </div>
